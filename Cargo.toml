@@ -1,7 +1,6 @@
 [package]
 name = "tantivy"
 version = "0.16.1"
-authors = ["Paul Masurel <paul.masurel@gmail.com>"]
 license = "MIT"
 categories = ["database-implementations", "data-structures"]
 description = """Search engine library"""
@@ -56,6 +55,7 @@ fastdivide = "0.3"
 itertools = "0.10.0"
 measure_time = "0.7.0"
 serde_cbor = "0.11"
+async-trait = "0.1"
 
 [target.'cfg(windows)'.dependencies]
 winapi = "0.3.9"
